@@ -1,0 +1,36 @@
+.note {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.comment{
+  width: 80%;
+  border: 1px solid #000;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10px;
+
+}
+
+.comment div{
+  margin: 5px;
+}
+
+textarea{
+  resize: none;
+}
+
+.buttons button{
+  margin: 0 5px;
+}
+
+
+
