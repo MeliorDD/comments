@@ -84,8 +84,9 @@ function editComment(id){
 
 function deleteComment(id){
   comments.splice(id,1)
-  const commentToDelete = document.getElementById('comment'+ id)
-  commentToDelete.parentNode.removeChild(commentToDelete)
+  ReactDOM.render(
+    <App />, document.getElementById('root')
+  )
   saveComments()
 }
 
