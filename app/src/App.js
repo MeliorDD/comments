@@ -2,7 +2,7 @@ import './App.css';
 import ReactDOM from 'react-dom';
 import Comment from './components/Comment'
 import Form from './components/Form'
-
+import Request from'./components/Request'
 
 function App() {
   return (
@@ -20,8 +20,10 @@ function App() {
       })}
       <Form addComment={addComment}/>
     </div>
+    
   );
 }
+
 
 let comments = []
 
@@ -46,8 +48,6 @@ function addComment(){
         <App />, document.getElementById('root')
       )
     }
-    
-    
 }
 function saveComments(){
     localStorage.setItem('comments', JSON.stringify(comments))
