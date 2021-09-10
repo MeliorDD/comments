@@ -2,7 +2,7 @@ import './App.css';
 import ReactDOM from 'react-dom';
 import Comment from './components/Comment'
 import Form from './components/Form'
-import Request from'./components/Request'
+
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <div className="note">
         <h2>Статья</h2>
         <div className="text">
-          Lorem sldkfm;dsalkgd;l gkdjfg;slkd f;lkbml kmf;lkf g;dlfkhjfd;l khjtioj hpoitgdksfg kjfhglkur hiuhasdj hldfkj ghlsku rghiusd fhgk jdshgl kjdnv kjdfnlv kushd roiu hgdi fjvn lkdfhiu erhgiou rhgs difjg lkdjfg shlkd fuhgori euah ifdlg kjdfghl kdjfghlriu thpwo hp lkhd;gkljhdfl
+        Повседневная практика показывает, что дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание форм развития. Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание направлений прогрессивного развития. Таким образом новая модель организационной деятельности способствует подготовки и реализации модели развития.
         </div>
       </div>
       {loadComments().map((com, index) => {

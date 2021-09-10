@@ -1,4 +1,4 @@
-.app{
+.app {
   margin: 0 auto;
   width: 80%;
   display: flex;
@@ -15,7 +15,7 @@
   border: 1px solid #000;
 }
 
-.comment{
+.comment {
   border: 1px solid rgb(144, 144, 144);
   display: flex;
   width: 90%;
@@ -25,23 +25,26 @@
   font-size: 12px;
 }
 
-.comment div{
+.comment div {
   margin: 5px;
 }
 
-.comment .body{
+.comment .body {
   font-size: 16px;
 }
 
-textarea{
+textarea {
   resize: none;
 }
-
-.buttons button{
+.form-control {
+  padding: 5px;
+  border-radius: 5px;
+}
+.buttons button {
   margin: 0 5px;
 }
 
-button{
+button {
   background-color: rgb(197, 251, 251);
   font-size: 12px;
   padding: 5px 10px;
@@ -49,13 +52,6 @@ button{
   cursor: pointer;
 }
 
-form :not(:first-child){
+form :not(:first-child) {
   margin: 10px 0;
-
 }
-
-
-
-
-
-

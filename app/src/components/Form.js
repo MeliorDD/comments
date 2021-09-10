@@ -13,7 +13,7 @@ function Form(props){
         </div>
         <div className="form-group">
             <label htmlFor="comment-body"></label>
-            <input type="name" id="comment-body" placeholder="Ваш комментарий"/>
+            <input type="name" id="comment-body"  className="form-control" placeholder="Ваш комментарий"/>
         </div>
         <div className="form-group text-right">
             <button type="submit" id="comment-add" onClick={props.addComment}>Добавить комментарий</button>
